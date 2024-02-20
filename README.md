@@ -15,6 +15,5 @@ docker exec -it lavad /bin/bash
 ```bash
 docker logs -f lavad
 ```
-```bash
-docker exec -it lavad lavad status | jq .SyncInfo.catching_up
-```
+
+[more](https://services.kjnodes.com/testnet/lava/useful-commands/)
