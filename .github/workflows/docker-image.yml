@@ -20,6 +20,6 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
     - name: Build the Docker image
-      run: docker build . -f Dockerfile -t ${{ secrets.DOCKERHUB_USERNAME }}/lava:latest
+      run: docker build . -f Dockerfile -t eth2dev/lava:latest
     - name: Docker image push
-      run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/lava:latest
+      run: docker push eth2dev/lava:latest
