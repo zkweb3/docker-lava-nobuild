@@ -25,4 +25,6 @@ sed -i \
   -e "s|^seeds *=.*|seeds =\"$SEED_NODE1,$SEED_NODE2\"|" \
   /root/.lava/config/config.toml
 
+lavap q spec list-spec --node https://public-rpc-testnet2.lavanet.xyz:443/rpc/
+
 lavad start
