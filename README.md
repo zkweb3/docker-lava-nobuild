@@ -1,4 +1,4 @@
-![logo](https://socialify.git.ci/zkweb3/docker-lava-nobuild/image?description=1&descriptionEditable=deploy%20lava%20testnet%20node%20in%20docker&language=1&name=1&owner=1&pattern=Floating%20Cogs&theme=Light)
+![logo](https://socialify.git.ci/zkweb3/docker-lava-nobuild/image?description=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&theme=Light)
 
 ### Building
 ```bash
