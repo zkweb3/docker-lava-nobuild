@@ -16,4 +16,4 @@ docker exec -it lavad /bin/bash
 docker logs -f lavad
 ```
 
-[more](https://services.kjnodes.com/testnet/lava/useful-commands/)
+* [more](https://services.kjnodes.com/testnet/lava/useful-commands/)
