@@ -3,7 +3,7 @@ version: '3.9'
 services:
 
   lava-node:
-    image: eth2dev/lava:v1.0.3
+    image: eth2dev/lava:v1.0.4
     container_name: 'lavad'
     volumes:
       - ${NODEDATA_DIR:-./data}:/root/.lava/data
